@@ -117,7 +117,6 @@ def pasiekimu_sar(slapyvardis):
     conn.close()
 
     val  = input("Iveskite bet ka jeigu norite grizti i pagrindi menu: ")
-    cls()
 
 
 
