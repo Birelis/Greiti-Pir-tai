@@ -17,7 +17,7 @@ def zaidimas_pradzia(tekstas, patikrinimas = '0'):
 
     klaidu_kiekis = klaidu_taisymas(tekstas, zaidejo_rez[0])
 
-    wpm = round((len(tekstas)/5)/(zaidejo_rez[1]/60),0)
+    wpm = round((len(zaidejo_rez[0])/5)/(zaidejo_rez[1]/60),0)
 
     print("Zaidimas baigtas, jusu rezultatas.")
     print(f"Teksta atkortoje per {round(zaidejo_rez[1],0)} sekundes.")
